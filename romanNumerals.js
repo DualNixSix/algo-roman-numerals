@@ -27,7 +27,6 @@ const romanNumeralPriorityOrder = ["M","D","C","L","X","V","I"];
   return output;
 }
   
-console.log(toRomanLazy(500)); // Testing the function
 
 function toRoman(num) {
   let output = ""
@@ -62,8 +61,6 @@ function toRoman(num) {
 
   return output;
 }
-
-console.log(toRoman(1117)); // Testing the function
 
 
 module.exports = { toRoman, toRomanLazy };
